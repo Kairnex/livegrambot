@@ -6,3 +6,5 @@ text_message = "Message that would be send if somebody writes any text"#answerin
 banned = "you are blocked"#if admin has blocked a user
 main_id = 6999372290 #id without quotes #can be group id
 TOKEN = "8006165946:AAFoIk1txo28CGOg1ekOrGuEyG-VkIfRj6c"#bot token
+
+ADMIN_ID = 123456789  # Replace with your actual Telegram user ID

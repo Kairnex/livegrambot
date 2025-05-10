@@ -1,3 +1,11 @@
+
+def save_user_id(user_id):
+    with open("users.txt", "a+") as f:
+        f.seek(0)
+        users = f.read().splitlines()
+        if str(user_id) not in users:
+            f.write(f"{user_id}\n")
+
 import telebot
 import config
 import sqlite3
